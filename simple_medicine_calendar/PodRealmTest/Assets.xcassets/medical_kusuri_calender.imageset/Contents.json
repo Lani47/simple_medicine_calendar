@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "medical_kusuri_calender.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
