@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1C4561299DB7370036CFA7 /* appDElegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C4560299DB7370036CFA7 /* appDElegate.swift */; };
+		7F221C2A296E40DD0051B060 /* RimindSetSundayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F221C29296E40DD0051B060 /* RimindSetSundayView.swift */; };
+		7F221C2C296E522B0051B060 /* RimindSetNightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F221C2B296E522B0051B060 /* RimindSetNightView.swift */; };
+		7F375A47293EE46000EEAD0C /* RemaindSetMorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F375A46293EE45F00EEAD0C /* RemaindSetMorningView.swift */; };
+		7F375A49293EEC3200EEAD0C /* RimindDrugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F375A48293EEC3200EEAD0C /* RimindDrugItem.swift */; };
+		7F54E3D5291DDD6E00FAE487 /* PodRealmTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3D4291DDD6E00FAE487 /* PodRealmTestApp.swift */; };
+		7F54E3D7291DDD6E00FAE487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3D6291DDD6E00FAE487 /* ContentView.swift */; };
+		7F54E3D9291DDD7100FAE487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F54E3D8291DDD7100FAE487 /* Assets.xcassets */; };
+		7F54E3DC291DDD7100FAE487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F54E3DB291DDD7100FAE487 /* Preview Assets.xcassets */; };
+		7F54E3E3291DDE3500FAE487 /* RWBYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3E2291DDE3500FAE487 /* RWBYView.swift */; };
+		7F54E3E5291DDE4400FAE487 /* RWBYTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3E4291DDE4400FAE487 /* RWBYTest.swift */; };
+		7F54E3E7291DDEA200FAE487 /* NotificationRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3E6291DDEA200FAE487 /* NotificationRequestManager.swift */; };
+		7F54E3E9291DDF4900FAE487 /* EntryNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3E8291DDF4900FAE487 /* EntryNotificationView.swift */; };
+		7F54E3ED291DECB700FAE487 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54E3EC291DECB700FAE487 /* ColorView.swift */; };
+		7F5A7D5F2977BEE900D072E9 /* RimindSetSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A7D5E2977BEE900D072E9 /* RimindSetSleepView.swift */; };
+		7F5A7D642977C1F000D072E9 /* RemaindSetMorningView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A7D632977C1F000D072E9 /* RemaindSetMorningView2.swift */; };
+		7F6A6744297A3166000FEA7D /* RimindResultDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A6743297A3166000FEA7D /* RimindResultDB.swift */; };
+		7F6A6746297A3280000FEA7D /* RimindResultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A6745297A3280000FEA7D /* RimindResultStore.swift */; };
+		7F6B0CC2292713C00020EA57 /* SceneDelemodoki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B0CC1292713C00020EA57 /* SceneDelemodoki.swift */; };
+		7F6B0CC4292715B30020EA57 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B0CC3292715B30020EA57 /* MySceneDelegate.swift */; };
+		7F6B996D2980D67000002978 /* DrugPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B996C2980D67000002978 /* DrugPreviewView.swift */; };
+		7F729C9B293067190001EA8E /* TimeUIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F729C9A293067190001EA8E /* TimeUIListView.swift */; };
+		7F7399D72952CB5E00C87711 /* DateFomatterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7399D62952CB5D00C87711 /* DateFomatterModel.swift */; };
+		7F7399D92952CE8F00C87711 /* RWBYViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7399D82952CE8F00C87711 /* RWBYViewModel.swift */; };
+		7F744887294BFBBE002B50E7 /* DBCreateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F744886294BFBBE002B50E7 /* DBCreateTest.swift */; };
+		7F78D2A4298B8DCB00633EAE /* RimindSetNightView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2A3298B8DCB00633EAE /* RimindSetNightView6.swift */; };
+		7F78D2A6298B8E4400633EAE /* RimindSetSleepView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2A5298B8E4400633EAE /* RimindSetSleepView6.swift */; };
+		7F78D2A8298B8EA700633EAE /* RimindSetSleepView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2A7298B8EA700633EAE /* RimindSetSleepView7.swift */; };
+		7F78D2AA298B8F2600633EAE /* RimindSetNightView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2A9298B8F2600633EAE /* RimindSetNightView7.swift */; };
+		7F78D2AC298B8FA400633EAE /* RimindSetSundayView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2AB298B8FA400633EAE /* RimindSetSundayView7.swift */; };
+		7F78D2AE298B902F00633EAE /* RemaindSetMorningView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78D2AD298B902F00633EAE /* RemaindSetMorningView7.swift */; };
+		7F859410298B4E3200B2500E /* RemaindSetMorningView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85940F298B4E3200B2500E /* RemaindSetMorningView4.swift */; };
+		7F859412298B52D800B2500E /* RimindSetSundayView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859411298B52D800B2500E /* RimindSetSundayView3.swift */; };
+		7F859414298B538100B2500E /* RimindSetNightView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859413298B538100B2500E /* RimindSetNightView3.swift */; };
+		7F859416298B53ED00B2500E /* RimindSetSleepView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859415298B53ED00B2500E /* RimindSetSleepView3.swift */; };
+		7F859418298B57BA00B2500E /* RimindSetSundayView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859417298B57BA00B2500E /* RimindSetSundayView4.swift */; };
+		7F85941A298B584F00B2500E /* RimindSetNightView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859419298B584F00B2500E /* RimindSetNightView4.swift */; };
+		7F85941C298B58C700B2500E /* RimindSetSleepView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85941B298B58C700B2500E /* RimindSetSleepView4.swift */; };
+		7F85941E298B5BDF00B2500E /* RemaindSetMorningView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85941D298B5BDF00B2500E /* RemaindSetMorningView5.swift */; };
+		7F859420298B5C5F00B2500E /* RimindSetSundayView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85941F298B5C5F00B2500E /* RimindSetSundayView5.swift */; };
+		7F859422298B5D8F00B2500E /* RimindSetNightView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859421298B5D8F00B2500E /* RimindSetNightView5.swift */; };
+		7F859424298B5E3C00B2500E /* RimindSetSleepView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859423298B5E3C00B2500E /* RimindSetSleepView5.swift */; };
+		7F859426298B629E00B2500E /* RemaindSetMorningView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859425298B629E00B2500E /* RemaindSetMorningView6.swift */; };
+		7F859428298B64F500B2500E /* RimindSetSundayView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859427298B64F500B2500E /* RimindSetSundayView6.swift */; };
+		7F864DF729513B79001A84CB /* RimindTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F864DF629513B79001A84CB /* RimindTest.swift */; };
+		7F864DFC29513C2B001A84CB /* RimindTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F864DFB29513C2B001A84CB /* RimindTime.swift */; };
+		7F864DFE29513D49001A84CB /* RimindTimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F864DFD29513D49001A84CB /* RimindTimeStore.swift */; };
+		7F864E0029514374001A84CB /* RimindTestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F864DFF29514374001A84CB /* RimindTestStore.swift */; };
+		7F864E0229515FED001A84CB /* TopMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F864E0129515FED001A84CB /* TopMenuViewModel.swift */; };
+		7F8A98A4299E1F9E00F19083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A98A3299E1F9E00F19083 /* Assets.xcassets */; };
+		7F8A98AA299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7F8A98A9299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F8A98AF299E1F9E00F19083 /* simple_medicine_calendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A98AE299E1F9E00F19083 /* simple_medicine_calendarApp.swift */; };
+		7F8A98B1299E1F9E00F19083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A98B0299E1F9E00F19083 /* ContentView.swift */; };
+		7F8A98B3299E1F9E00F19083 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A98B2299E1F9E00F19083 /* NotificationController.swift */; };
+		7F8A98B5299E1F9E00F19083 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A98B4299E1F9E00F19083 /* NotificationView.swift */; };
+		7F8A98B7299E1F9E00F19083 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A98B6299E1F9E00F19083 /* ComplicationController.swift */; };
+		7F8A98B9299E1FA100F19083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A98B8299E1FA100F19083 /* Assets.xcassets */; };
+		7F8A98BC299E1FA100F19083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A98BB299E1FA100F19083 /* Preview Assets.xcassets */; };
+		7F8A98C1299E1FA100F19083 /* simple_medicine_calendar_watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7F8A98A1299E1F9A00F19083 /* simple_medicine_calendar_watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F9034D4292483CA00185DEB /* DrugListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9034D3292483CA00185DEB /* DrugListView.swift */; };
+		7FA1A73529398E2C008E058A /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1A73429398E2C008E058A /* alert.swift */; };
+		7FA3ACDD299E216700047719 /* WatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3ACDC299E216700047719 /* WatchListViewModel.swift */; };
+		7FA3ACDF299E21CD00047719 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3ACDE299E21CD00047719 /* NotificationViewModel.swift */; };
+		7FA3ACE1299E21EE00047719 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3ACE0299E21EE00047719 /* AnimalModel.swift */; };
+		7FA3ACE3299E220E00047719 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3ACE2299E220E00047719 /* MessageRow.swift */; };
+		7FA3D2DF29403E9F00E29CEC /* RimaindStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3D2DE29403E9F00E29CEC /* RimaindStore.swift */; };
+		7FB44C9729231F9400F05EF4 /* DrugDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB44C9629231F9400F05EF4 /* DrugDB.swift */; };
+		7FB44C992923329C00F05EF4 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB44C982923329C00F05EF4 /* TopMenuView.swift */; };
+		7FB44C9B2923365700F05EF4 /* SystemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB44C9A2923365700F05EF4 /* SystemColor.swift */; };
+		7FB44CA129233A5400F05EF4 /* DrugStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB44CA029233A5400F05EF4 /* DrugStore.swift */; };
+		7FBDE231298A108B00E5EE91 /* RimindSetSundayView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDE230298A108B00E5EE91 /* RimindSetSundayView2.swift */; };
+		7FBDE233298A119B00E5EE91 /* RimindSetNightView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDE232298A119B00E5EE91 /* RimindSetNightView2.swift */; };
+		7FBDE235298A13B100E5EE91 /* RimindSetSleepView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDE234298A13B100E5EE91 /* RimindSetSleepView2.swift */; };
+		7FBDE23C298A252D00E5EE91 /* RemaindSetMorningView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDE23B298A252D00E5EE91 /* RemaindSetMorningView3.swift */; };
+		7FC715CA2978E833006D2A41 /* UserAndNotificationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC715C92978E833006D2A41 /* UserAndNotificationClass.swift */; };
+		A6F37D8C1AA7A706DB36E410 /* Pods_simple_medicine_calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D95C76C02D117E10255DFF /* Pods_simple_medicine_calendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8A98AB299E1F9E00F19083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F54E3C9291DDD6E00FAE487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8A98A8299E1F9E00F19083;
+			remoteInfo = "simple_medicine_calendar_watch WatchKit Extension";
+		};
+		7F8A98BF299E1FA100F19083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F54E3C9291DDD6E00FAE487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8A98A0299E1F9A00F19083;
+			remoteInfo = simple_medicine_calendar_watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F8A98C2299E1FA100F19083 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7F8A98C1299E1FA100F19083 /* simple_medicine_calendar_watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A98C5299E1FA100F19083 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F8A98AA299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0350BC27D7398D21CCF70BF6 /* Pods-simple_medicine_calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simple_medicine_calendar.debug.xcconfig"; path = "Target Support Files/Pods-simple_medicine_calendar/Pods-simple_medicine_calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1C4560299DB7370036CFA7 /* appDElegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appDElegate.swift; sourceTree = "<group>"; };
+		7F221C29296E40DD0051B060 /* RimindSetSundayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView.swift; sourceTree = "<group>"; };
+		7F221C2B296E522B0051B060 /* RimindSetNightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView.swift; sourceTree = "<group>"; };
+		7F375A46293EE45F00EEAD0C /* RemaindSetMorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView.swift; sourceTree = "<group>"; };
+		7F375A48293EEC3200EEAD0C /* RimindDrugItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindDrugItem.swift; sourceTree = "<group>"; };
+		7F54E3D1291DDD6E00FAE487 /* simple_medicine_calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simple_medicine_calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F54E3D4291DDD6E00FAE487 /* PodRealmTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodRealmTestApp.swift; sourceTree = "<group>"; };
+		7F54E3D6291DDD6E00FAE487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F54E3D8291DDD7100FAE487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F54E3DB291DDD7100FAE487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F54E3E2291DDE3500FAE487 /* RWBYView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWBYView.swift; sourceTree = "<group>"; };
+		7F54E3E4291DDE4400FAE487 /* RWBYTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWBYTest.swift; sourceTree = "<group>"; };
+		7F54E3E6291DDEA200FAE487 /* NotificationRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRequestManager.swift; sourceTree = "<group>"; };
+		7F54E3E8291DDF4900FAE487 /* EntryNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryNotificationView.swift; sourceTree = "<group>"; };
+		7F54E3EC291DECB700FAE487 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		7F5A7D5E2977BEE900D072E9 /* RimindSetSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView.swift; sourceTree = "<group>"; };
+		7F5A7D632977C1F000D072E9 /* RemaindSetMorningView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView2.swift; sourceTree = "<group>"; };
+		7F6A6743297A3166000FEA7D /* RimindResultDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindResultDB.swift; sourceTree = "<group>"; };
+		7F6A6745297A3280000FEA7D /* RimindResultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindResultStore.swift; sourceTree = "<group>"; };
+		7F6B0CC1292713C00020EA57 /* SceneDelemodoki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelemodoki.swift; sourceTree = "<group>"; };
+		7F6B0CC3292715B30020EA57 /* MySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
+		7F6B996C2980D67000002978 /* DrugPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugPreviewView.swift; sourceTree = "<group>"; };
+		7F729C9A293067190001EA8E /* TimeUIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUIListView.swift; sourceTree = "<group>"; };
+		7F7399D62952CB5D00C87711 /* DateFomatterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFomatterModel.swift; sourceTree = "<group>"; };
+		7F7399D82952CE8F00C87711 /* RWBYViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWBYViewModel.swift; sourceTree = "<group>"; };
+		7F744886294BFBBE002B50E7 /* DBCreateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBCreateTest.swift; sourceTree = "<group>"; };
+		7F78D2A3298B8DCB00633EAE /* RimindSetNightView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView6.swift; sourceTree = "<group>"; };
+		7F78D2A5298B8E4400633EAE /* RimindSetSleepView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView6.swift; sourceTree = "<group>"; };
+		7F78D2A7298B8EA700633EAE /* RimindSetSleepView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView7.swift; sourceTree = "<group>"; };
+		7F78D2A9298B8F2600633EAE /* RimindSetNightView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView7.swift; sourceTree = "<group>"; };
+		7F78D2AB298B8FA400633EAE /* RimindSetSundayView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView7.swift; sourceTree = "<group>"; };
+		7F78D2AD298B902F00633EAE /* RemaindSetMorningView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView7.swift; sourceTree = "<group>"; };
+		7F85940F298B4E3200B2500E /* RemaindSetMorningView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView4.swift; sourceTree = "<group>"; };
+		7F859411298B52D800B2500E /* RimindSetSundayView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView3.swift; sourceTree = "<group>"; };
+		7F859413298B538100B2500E /* RimindSetNightView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView3.swift; sourceTree = "<group>"; };
+		7F859415298B53ED00B2500E /* RimindSetSleepView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView3.swift; sourceTree = "<group>"; };
+		7F859417298B57BA00B2500E /* RimindSetSundayView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView4.swift; sourceTree = "<group>"; };
+		7F859419298B584F00B2500E /* RimindSetNightView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView4.swift; sourceTree = "<group>"; };
+		7F85941B298B58C700B2500E /* RimindSetSleepView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView4.swift; sourceTree = "<group>"; };
+		7F85941D298B5BDF00B2500E /* RemaindSetMorningView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView5.swift; sourceTree = "<group>"; };
+		7F85941F298B5C5F00B2500E /* RimindSetSundayView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView5.swift; sourceTree = "<group>"; };
+		7F859421298B5D8F00B2500E /* RimindSetNightView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView5.swift; sourceTree = "<group>"; };
+		7F859423298B5E3C00B2500E /* RimindSetSleepView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView5.swift; sourceTree = "<group>"; };
+		7F859425298B629E00B2500E /* RemaindSetMorningView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView6.swift; sourceTree = "<group>"; };
+		7F859427298B64F500B2500E /* RimindSetSundayView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView6.swift; sourceTree = "<group>"; };
+		7F864DF629513B79001A84CB /* RimindTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindTest.swift; sourceTree = "<group>"; };
+		7F864DFB29513C2B001A84CB /* RimindTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindTime.swift; sourceTree = "<group>"; };
+		7F864DFD29513D49001A84CB /* RimindTimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindTimeStore.swift; sourceTree = "<group>"; };
+		7F864DFF29514374001A84CB /* RimindTestStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindTestStore.swift; sourceTree = "<group>"; };
+		7F864E0129515FED001A84CB /* TopMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewModel.swift; sourceTree = "<group>"; };
+		7F8A98A1299E1F9A00F19083 /* simple_medicine_calendar_watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simple_medicine_calendar_watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A98A3299E1F9E00F19083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A98A9299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "simple_medicine_calendar_watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A98AE299E1F9E00F19083 /* simple_medicine_calendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_medicine_calendarApp.swift; sourceTree = "<group>"; };
+		7F8A98B0299E1F9E00F19083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F8A98B2299E1F9E00F19083 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7F8A98B4299E1F9E00F19083 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		7F8A98B6299E1F9E00F19083 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7F8A98B8299E1FA100F19083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A98BB299E1FA100F19083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F8A98BD299E1FA100F19083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A98BE299E1FA100F19083 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7F9034D3292483CA00185DEB /* DrugListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugListView.swift; sourceTree = "<group>"; };
+		7F9E273A29385124001617D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7FA1A73429398E2C008E058A /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
+		7FA3ACDC299E216700047719 /* WatchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewModel.swift; sourceTree = "<group>"; };
+		7FA3ACDE299E21CD00047719 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		7FA3ACE0299E21EE00047719 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		7FA3ACE2299E220E00047719 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		7FA3D2DE29403E9F00E29CEC /* RimaindStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimaindStore.swift; sourceTree = "<group>"; };
+		7FB44C9629231F9400F05EF4 /* DrugDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDB.swift; sourceTree = "<group>"; };
+		7FB44C982923329C00F05EF4 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		7FB44C9A2923365700F05EF4 /* SystemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemColor.swift; sourceTree = "<group>"; };
+		7FB44CA029233A5400F05EF4 /* DrugStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugStore.swift; sourceTree = "<group>"; };
+		7FBDE230298A108B00E5EE91 /* RimindSetSundayView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSundayView2.swift; sourceTree = "<group>"; };
+		7FBDE232298A119B00E5EE91 /* RimindSetNightView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetNightView2.swift; sourceTree = "<group>"; };
+		7FBDE234298A13B100E5EE91 /* RimindSetSleepView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimindSetSleepView2.swift; sourceTree = "<group>"; };
+		7FBDE23B298A252D00E5EE91 /* RemaindSetMorningView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindSetMorningView3.swift; sourceTree = "<group>"; };
+		7FC715C92978E833006D2A41 /* UserAndNotificationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndNotificationClass.swift; sourceTree = "<group>"; };
+		913B588B7B871D570557630C /* Pods-PodRealmTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodRealmTest.debug.xcconfig"; path = "Target Support Files/Pods-PodRealmTest/Pods-PodRealmTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B884A852C10D0DCF5B9E45D8 /* Pods-PodRealmTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodRealmTest.release.xcconfig"; path = "Target Support Files/Pods-PodRealmTest/Pods-PodRealmTest.release.xcconfig"; sourceTree = "<group>"; };
+		C42D96690EAD7671F86E20E0 /* Pods-simple_medicine_calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simple_medicine_calendar.release.xcconfig"; path = "Target Support Files/Pods-simple_medicine_calendar/Pods-simple_medicine_calendar.release.xcconfig"; sourceTree = "<group>"; };
+		C8D95C76C02D117E10255DFF /* Pods_simple_medicine_calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simple_medicine_calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247AD5E8B1CEAF17A2A516D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F54E3CE291DDD6E00FAE487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F37D8C1AA7A706DB36E410 /* Pods_simple_medicine_calendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A98A6299E1F9E00F19083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206EE1E4AF1EC8218C4FA4EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				913B588B7B871D570557630C /* Pods-PodRealmTest.debug.xcconfig */,
+				B884A852C10D0DCF5B9E45D8 /* Pods-PodRealmTest.release.xcconfig */,
+				0350BC27D7398D21CCF70BF6 /* Pods-simple_medicine_calendar.debug.xcconfig */,
+				C42D96690EAD7671F86E20E0 /* Pods-simple_medicine_calendar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F54E3C8291DDD6E00FAE487 = {
+			isa = PBXGroup;
+			children = (
+				7F54E3D3291DDD6E00FAE487 /* PodRealmTest */,
+				7F8A98A2299E1F9A00F19083 /* simple_medicine_calendar_watch */,
+				7F8A98AD299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension */,
+				7F54E3D2291DDD6E00FAE487 /* Products */,
+				206EE1E4AF1EC8218C4FA4EA /* Pods */,
+				BFAE10312175922B1BD9DC30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F54E3D2291DDD6E00FAE487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F54E3D1291DDD6E00FAE487 /* simple_medicine_calendar.app */,
+				7F8A98A1299E1F9A00F19083 /* simple_medicine_calendar_watch.app */,
+				7F8A98A9299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F54E3D3291DDD6E00FAE487 /* PodRealmTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E273A29385124001617D6 /* Info.plist */,
+				7F54E3D4291DDD6E00FAE487 /* PodRealmTestApp.swift */,
+				7F54E3D6291DDD6E00FAE487 /* ContentView.swift */,
+				7F8A98CA299E1FC700F19083 /* WatchView */,
+				7FB44C982923329C00F05EF4 /* TopMenuView.swift */,
+				7F864E0129515FED001A84CB /* TopMenuViewModel.swift */,
+				7FB31C082942BE5300B82D30 /* DrugSet */,
+				7FB31C072942BE3400B82D30 /* Remaind */,
+				7F9034D3292483CA00185DEB /* DrugListView.swift */,
+				7F6B996C2980D67000002978 /* DrugPreviewView.swift */,
+				7FB44C9F292338CA00F05EF4 /* DataBase */,
+				7F54E3E6291DDEA200FAE487 /* NotificationRequestManager.swift */,
+				7F54E3E4291DDE4400FAE487 /* RWBYTest.swift */,
+				7FA1A73429398E2C008E058A /* alert.swift */,
+				7F54E3E8291DDF4900FAE487 /* EntryNotificationView.swift */,
+				7FB44C9C2923366500F05EF4 /* Extension_or_Derigate */,
+				7F54E3D8291DDD7100FAE487 /* Assets.xcassets */,
+				7F54E3DA291DDD7100FAE487 /* Preview Content */,
+			);
+			path = PodRealmTest;
+			sourceTree = "<group>";
+		};
+		7F54E3DA291DDD7100FAE487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F54E3DB291DDD7100FAE487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F5A7D602977BF1200D072E9 /* RemindSet1-7 */ = {
+			isa = PBXGroup;
+			children = (
+				7F5A7D612977C04400D072E9 /* RimindSet1 */,
+				7F5A7D622977C1D100D072E9 /* RimindSet2 */,
+				7FBDE23A298A24C100E5EE91 /* RimindSet7 */,
+				7FBDE239298A24BA00E5EE91 /* RimindSet6 */,
+				7FBDE238298A24B100E5EE91 /* RimindSet5 */,
+				7FBDE237298A24A900E5EE91 /* RimindSet4 */,
+				7FBDE236298A249E00E5EE91 /* RimindSet3 */,
+			);
+			path = "RemindSet1-7";
+			sourceTree = "<group>";
+		};
+		7F5A7D612977C04400D072E9 /* RimindSet1 */ = {
+			isa = PBXGroup;
+			children = (
+				7F375A46293EE45F00EEAD0C /* RemaindSetMorningView.swift */,
+				7F221C29296E40DD0051B060 /* RimindSetSundayView.swift */,
+				7F221C2B296E522B0051B060 /* RimindSetNightView.swift */,
+				7F5A7D5E2977BEE900D072E9 /* RimindSetSleepView.swift */,
+			);
+			path = RimindSet1;
+			sourceTree = "<group>";
+		};
+		7F5A7D622977C1D100D072E9 /* RimindSet2 */ = {
+			isa = PBXGroup;
+			children = (
+				7F5A7D632977C1F000D072E9 /* RemaindSetMorningView2.swift */,
+				7FBDE230298A108B00E5EE91 /* RimindSetSundayView2.swift */,
+				7FBDE232298A119B00E5EE91 /* RimindSetNightView2.swift */,
+				7FBDE234298A13B100E5EE91 /* RimindSetSleepView2.swift */,
+			);
+			path = RimindSet2;
+			sourceTree = "<group>";
+		};
+		7F6A6742297A314D000FEA7D /* RimindResult */ = {
+			isa = PBXGroup;
+			children = (
+				7F6A6743297A3166000FEA7D /* RimindResultDB.swift */,
+				7F6A6745297A3280000FEA7D /* RimindResultStore.swift */,
+			);
+			path = RimindResult;
+			sourceTree = "<group>";
+		};
+		7F864DF529513B61001A84CB /* RimindTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F864DF629513B79001A84CB /* RimindTest.swift */,
+				7F864DFF29514374001A84CB /* RimindTestStore.swift */,
+			);
+			path = RimindTest;
+			sourceTree = "<group>";
+		};
+		7F864DF829513BC3001A84CB /* DrugDB */ = {
+			isa = PBXGroup;
+			children = (
+				7FB44C9629231F9400F05EF4 /* DrugDB.swift */,
+				7FB44CA029233A5400F05EF4 /* DrugStore.swift */,
+			);
+			path = DrugDB;
+			sourceTree = "<group>";
+		};
+		7F864DFA29513BE0001A84CB /* RimindTimeDB */ = {
+			isa = PBXGroup;
+			children = (
+				7F864DFB29513C2B001A84CB /* RimindTime.swift */,
+				7F864DFD29513D49001A84CB /* RimindTimeStore.swift */,
+			);
+			path = RimindTimeDB;
+			sourceTree = "<group>";
+		};
+		7F8A98A2299E1F9A00F19083 /* simple_medicine_calendar_watch */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A98A3299E1F9E00F19083 /* Assets.xcassets */,
+			);
+			path = simple_medicine_calendar_watch;
+			sourceTree = "<group>";
+		};
+		7F8A98AD299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A98AE299E1F9E00F19083 /* simple_medicine_calendarApp.swift */,
+				7F8A98B0299E1F9E00F19083 /* ContentView.swift */,
+				7FA3ACDE299E21CD00047719 /* NotificationViewModel.swift */,
+				7FA3ACE0299E21EE00047719 /* AnimalModel.swift */,
+				7FA3ACE2299E220E00047719 /* MessageRow.swift */,
+				7F8A98B2299E1F9E00F19083 /* NotificationController.swift */,
+				7F8A98B4299E1F9E00F19083 /* NotificationView.swift */,
+				7F8A98B6299E1F9E00F19083 /* ComplicationController.swift */,
+				7F8A98B8299E1FA100F19083 /* Assets.xcassets */,
+				7F8A98BD299E1FA100F19083 /* Info.plist */,
+				7F8A98BE299E1FA100F19083 /* PushNotificationPayload.apns */,
+				7F8A98BA299E1FA100F19083 /* Preview Content */,
+			);
+			path = "simple_medicine_calendar_watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7F8A98BA299E1FA100F19083 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A98BB299E1FA100F19083 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F8A98CA299E1FC700F19083 /* WatchView */ = {
+			isa = PBXGroup;
+			children = (
+				7FA3ACDC299E216700047719 /* WatchListViewModel.swift */,
+			);
+			path = WatchView;
+			sourceTree = "<group>";
+		};
+		7FA3D2DD29403E8B00E29CEC /* Rimaind */ = {
+			isa = PBXGroup;
+			children = (
+				7F375A48293EEC3200EEAD0C /* RimindDrugItem.swift */,
+				7FA3D2DE29403E9F00E29CEC /* RimaindStore.swift */,
+			);
+			path = Rimaind;
+			sourceTree = "<group>";
+		};
+		7FA3D2E0294054C200E29CEC /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				7F744886294BFBBE002B50E7 /* DBCreateTest.swift */,
+			);
+			path = Choice;
+			sourceTree = "<group>";
+		};
+		7FB31C072942BE3400B82D30 /* Remaind */ = {
+			isa = PBXGroup;
+			children = (
+				7FC715C82978E81D006D2A41 /* Pushhon */,
+				7F5A7D602977BF1200D072E9 /* RemindSet1-7 */,
+				7F729C9A293067190001EA8E /* TimeUIListView.swift */,
+				7F7399D62952CB5D00C87711 /* DateFomatterModel.swift */,
+			);
+			path = Remaind;
+			sourceTree = "<group>";
+		};
+		7FB31C082942BE5300B82D30 /* DrugSet */ = {
+			isa = PBXGroup;
+			children = (
+				7F54E3E2291DDE3500FAE487 /* RWBYView.swift */,
+				7F7399D82952CE8F00C87711 /* RWBYViewModel.swift */,
+				7F54E3EC291DECB700FAE487 /* ColorView.swift */,
+			);
+			path = DrugSet;
+			sourceTree = "<group>";
+		};
+		7FB44C9C2923366500F05EF4 /* Extension_or_Derigate */ = {
+			isa = PBXGroup;
+			children = (
+				7FB44C9A2923365700F05EF4 /* SystemColor.swift */,
+				7F6B0CC1292713C00020EA57 /* SceneDelemodoki.swift */,
+				7F6B0CC3292715B30020EA57 /* MySceneDelegate.swift */,
+			);
+			path = Extension_or_Derigate;
+			sourceTree = "<group>";
+		};
+		7FB44C9F292338CA00F05EF4 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				7F6A6742297A314D000FEA7D /* RimindResult */,
+				7F864DFA29513BE0001A84CB /* RimindTimeDB */,
+				7F864DF829513BC3001A84CB /* DrugDB */,
+				7F864DF529513B61001A84CB /* RimindTest */,
+				7FA3D2E0294054C200E29CEC /* Choice */,
+				7FA3D2DD29403E8B00E29CEC /* Rimaind */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		7FBDE236298A249E00E5EE91 /* RimindSet3 */ = {
+			isa = PBXGroup;
+			children = (
+				7FBDE23B298A252D00E5EE91 /* RemaindSetMorningView3.swift */,
+				7F859411298B52D800B2500E /* RimindSetSundayView3.swift */,
+				7F859413298B538100B2500E /* RimindSetNightView3.swift */,
+				7F859415298B53ED00B2500E /* RimindSetSleepView3.swift */,
+			);
+			path = RimindSet3;
+			sourceTree = "<group>";
+		};
+		7FBDE237298A24A900E5EE91 /* RimindSet4 */ = {
+			isa = PBXGroup;
+			children = (
+				7F85940F298B4E3200B2500E /* RemaindSetMorningView4.swift */,
+				7F859417298B57BA00B2500E /* RimindSetSundayView4.swift */,
+				7F859419298B584F00B2500E /* RimindSetNightView4.swift */,
+				7F85941B298B58C700B2500E /* RimindSetSleepView4.swift */,
+				7F1C4560299DB7370036CFA7 /* appDElegate.swift */,
+			);
+			path = RimindSet4;
+			sourceTree = "<group>";
+		};
+		7FBDE238298A24B100E5EE91 /* RimindSet5 */ = {
+			isa = PBXGroup;
+			children = (
+				7F85941D298B5BDF00B2500E /* RemaindSetMorningView5.swift */,
+				7F85941F298B5C5F00B2500E /* RimindSetSundayView5.swift */,
+				7F859421298B5D8F00B2500E /* RimindSetNightView5.swift */,
+				7F859423298B5E3C00B2500E /* RimindSetSleepView5.swift */,
+			);
+			path = RimindSet5;
+			sourceTree = "<group>";
+		};
+		7FBDE239298A24BA00E5EE91 /* RimindSet6 */ = {
+			isa = PBXGroup;
+			children = (
+				7F859425298B629E00B2500E /* RemaindSetMorningView6.swift */,
+				7F859427298B64F500B2500E /* RimindSetSundayView6.swift */,
+				7F78D2A3298B8DCB00633EAE /* RimindSetNightView6.swift */,
+				7F78D2A5298B8E4400633EAE /* RimindSetSleepView6.swift */,
+			);
+			path = RimindSet6;
+			sourceTree = "<group>";
+		};
+		7FBDE23A298A24C100E5EE91 /* RimindSet7 */ = {
+			isa = PBXGroup;
+			children = (
+				7F78D2AD298B902F00633EAE /* RemaindSetMorningView7.swift */,
+				7F78D2AB298B8FA400633EAE /* RimindSetSundayView7.swift */,
+				7F78D2A9298B8F2600633EAE /* RimindSetNightView7.swift */,
+				7F78D2A7298B8EA700633EAE /* RimindSetSleepView7.swift */,
+			);
+			path = RimindSet7;
+			sourceTree = "<group>";
+		};
+		7FC715C82978E81D006D2A41 /* Pushhon */ = {
+			isa = PBXGroup;
+			children = (
+				7FC715C92978E833006D2A41 /* UserAndNotificationClass.swift */,
+			);
+			path = Pushhon;
+			sourceTree = "<group>";
+		};
+		BFAE10312175922B1BD9DC30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D95C76C02D117E10255DFF /* Pods_simple_medicine_calendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F54E3D0291DDD6E00FAE487 /* simple_medicine_calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F54E3DF291DDD7100FAE487 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar" */;
+			buildPhases = (
+				1E4F0EEF0AFDE4CE080178E6 /* [CP] Check Pods Manifest.lock */,
+				7F54E3CD291DDD6E00FAE487 /* Sources */,
+				7F54E3CE291DDD6E00FAE487 /* Frameworks */,
+				7F54E3CF291DDD6E00FAE487 /* Resources */,
+				E1F3506FA66DDDCBC1ED9D54 /* [CP] Embed Pods Frameworks */,
+				7F8A98C2299E1FA100F19083 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8A98C0299E1FA100F19083 /* PBXTargetDependency */,
+			);
+			name = simple_medicine_calendar;
+			productName = PodRealmTest;
+			productReference = 7F54E3D1291DDD6E00FAE487 /* simple_medicine_calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8A98A0299E1F9A00F19083 /* simple_medicine_calendar_watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A98C9299E1FA100F19083 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar_watch" */;
+			buildPhases = (
+				7F8A989F299E1F9A00F19083 /* Resources */,
+				7F8A98C5299E1FA100F19083 /* Embed App Extensions */,
+				247AD5E8B1CEAF17A2A516D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8A98AC299E1F9E00F19083 /* PBXTargetDependency */,
+			);
+			name = simple_medicine_calendar_watch;
+			productName = simple_medicine_calendar_watch;
+			productReference = 7F8A98A1299E1F9A00F19083 /* simple_medicine_calendar_watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7F8A98A8299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A98C8299E1FA100F19083 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar_watch WatchKit Extension" */;
+			buildPhases = (
+				7F8A98A5299E1F9E00F19083 /* Sources */,
+				7F8A98A6299E1F9E00F19083 /* Frameworks */,
+				7F8A98A7299E1F9E00F19083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple_medicine_calendar_watch WatchKit Extension";
+			productName = "simple_medicine_calendar_watch WatchKit Extension";
+			productReference = 7F8A98A9299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F54E3C9291DDD6E00FAE487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7F54E3D0291DDD6E00FAE487 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7F8A98A0299E1F9A00F19083 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7F8A98A8299E1F9E00F19083 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F54E3CC291DDD6E00FAE487 /* Build configuration list for PBXProject "simple_medicine_calendar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F54E3C8291DDD6E00FAE487;
+			productRefGroup = 7F54E3D2291DDD6E00FAE487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F54E3D0291DDD6E00FAE487 /* simple_medicine_calendar */,
+				7F8A98A0299E1F9A00F19083 /* simple_medicine_calendar_watch */,
+				7F8A98A8299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F54E3CF291DDD6E00FAE487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F54E3DC291DDD7100FAE487 /* Preview Assets.xcassets in Resources */,
+				7F54E3D9291DDD7100FAE487 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A989F299E1F9A00F19083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A98A4299E1F9E00F19083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A98A7299E1F9E00F19083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A98BC299E1FA100F19083 /* Preview Assets.xcassets in Resources */,
+				7F8A98B9299E1FA100F19083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E4F0EEF0AFDE4CE080178E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simple_medicine_calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F3506FA66DDDCBC1ED9D54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simple_medicine_calendar/Pods-simple_medicine_calendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simple_medicine_calendar/Pods-simple_medicine_calendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simple_medicine_calendar/Pods-simple_medicine_calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F54E3CD291DDD6E00FAE487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F864DFC29513C2B001A84CB /* RimindTime.swift in Sources */,
+				7FB44C9B2923365700F05EF4 /* SystemColor.swift in Sources */,
+				7F6B0CC2292713C00020EA57 /* SceneDelemodoki.swift in Sources */,
+				7F5A7D5F2977BEE900D072E9 /* RimindSetSleepView.swift in Sources */,
+				7F78D2A8298B8EA700633EAE /* RimindSetSleepView7.swift in Sources */,
+				7F85941E298B5BDF00B2500E /* RemaindSetMorningView5.swift in Sources */,
+				7F85941A298B584F00B2500E /* RimindSetNightView4.swift in Sources */,
+				7F859424298B5E3C00B2500E /* RimindSetSleepView5.swift in Sources */,
+				7FB44C992923329C00F05EF4 /* TopMenuView.swift in Sources */,
+				7F54E3E9291DDF4900FAE487 /* EntryNotificationView.swift in Sources */,
+				7F859420298B5C5F00B2500E /* RimindSetSundayView5.swift in Sources */,
+				7F744887294BFBBE002B50E7 /* DBCreateTest.swift in Sources */,
+				7FBDE233298A119B00E5EE91 /* RimindSetNightView2.swift in Sources */,
+				7F85941C298B58C700B2500E /* RimindSetSleepView4.swift in Sources */,
+				7F6A6746297A3280000FEA7D /* RimindResultStore.swift in Sources */,
+				7F78D2AA298B8F2600633EAE /* RimindSetNightView7.swift in Sources */,
+				7F729C9B293067190001EA8E /* TimeUIListView.swift in Sources */,
+				7F864E0029514374001A84CB /* RimindTestStore.swift in Sources */,
+				7FC715CA2978E833006D2A41 /* UserAndNotificationClass.swift in Sources */,
+				7F54E3D7291DDD6E00FAE487 /* ContentView.swift in Sources */,
+				7F5A7D642977C1F000D072E9 /* RemaindSetMorningView2.swift in Sources */,
+				7FB44CA129233A5400F05EF4 /* DrugStore.swift in Sources */,
+				7FBDE235298A13B100E5EE91 /* RimindSetSleepView2.swift in Sources */,
+				7F78D2AC298B8FA400633EAE /* RimindSetSundayView7.swift in Sources */,
+				7F78D2A6298B8E4400633EAE /* RimindSetSleepView6.swift in Sources */,
+				7F9034D4292483CA00185DEB /* DrugListView.swift in Sources */,
+				7FBDE23C298A252D00E5EE91 /* RemaindSetMorningView3.swift in Sources */,
+				7F859426298B629E00B2500E /* RemaindSetMorningView6.swift in Sources */,
+				7F375A49293EEC3200EEAD0C /* RimindDrugItem.swift in Sources */,
+				7F221C2A296E40DD0051B060 /* RimindSetSundayView.swift in Sources */,
+				7F859410298B4E3200B2500E /* RemaindSetMorningView4.swift in Sources */,
+				7F859414298B538100B2500E /* RimindSetNightView3.swift in Sources */,
+				7FBDE231298A108B00E5EE91 /* RimindSetSundayView2.swift in Sources */,
+				7F54E3ED291DECB700FAE487 /* ColorView.swift in Sources */,
+				7F864DFE29513D49001A84CB /* RimindTimeStore.swift in Sources */,
+				7F375A47293EE46000EEAD0C /* RemaindSetMorningView.swift in Sources */,
+				7FA1A73529398E2C008E058A /* alert.swift in Sources */,
+				7F54E3E5291DDE4400FAE487 /* RWBYTest.swift in Sources */,
+				7F859422298B5D8F00B2500E /* RimindSetNightView5.swift in Sources */,
+				7F864DF729513B79001A84CB /* RimindTest.swift in Sources */,
+				7FA3D2DF29403E9F00E29CEC /* RimaindStore.swift in Sources */,
+				7F6A6744297A3166000FEA7D /* RimindResultDB.swift in Sources */,
+				7F859418298B57BA00B2500E /* RimindSetSundayView4.swift in Sources */,
+				7F7399D92952CE8F00C87711 /* RWBYViewModel.swift in Sources */,
+				7F54E3E7291DDEA200FAE487 /* NotificationRequestManager.swift in Sources */,
+				7FA3ACDD299E216700047719 /* WatchListViewModel.swift in Sources */,
+				7FB44C9729231F9400F05EF4 /* DrugDB.swift in Sources */,
+				7F1C4561299DB7370036CFA7 /* appDElegate.swift in Sources */,
+				7F859416298B53ED00B2500E /* RimindSetSleepView3.swift in Sources */,
+				7F78D2A4298B8DCB00633EAE /* RimindSetNightView6.swift in Sources */,
+				7F859412298B52D800B2500E /* RimindSetSundayView3.swift in Sources */,
+				7F864E0229515FED001A84CB /* TopMenuViewModel.swift in Sources */,
+				7F54E3D5291DDD6E00FAE487 /* PodRealmTestApp.swift in Sources */,
+				7F78D2AE298B902F00633EAE /* RemaindSetMorningView7.swift in Sources */,
+				7F7399D72952CB5E00C87711 /* DateFomatterModel.swift in Sources */,
+				7F54E3E3291DDE3500FAE487 /* RWBYView.swift in Sources */,
+				7F221C2C296E522B0051B060 /* RimindSetNightView.swift in Sources */,
+				7F859428298B64F500B2500E /* RimindSetSundayView6.swift in Sources */,
+				7F6B0CC4292715B30020EA57 /* MySceneDelegate.swift in Sources */,
+				7F6B996D2980D67000002978 /* DrugPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A98A5299E1F9E00F19083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA3ACE3299E220E00047719 /* MessageRow.swift in Sources */,
+				7F8A98B3299E1F9E00F19083 /* NotificationController.swift in Sources */,
+				7FA3ACE1299E21EE00047719 /* AnimalModel.swift in Sources */,
+				7F8A98B1299E1F9E00F19083 /* ContentView.swift in Sources */,
+				7FA3ACDF299E21CD00047719 /* NotificationViewModel.swift in Sources */,
+				7F8A98B7299E1F9E00F19083 /* ComplicationController.swift in Sources */,
+				7F8A98AF299E1F9E00F19083 /* simple_medicine_calendarApp.swift in Sources */,
+				7F8A98B5299E1F9E00F19083 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8A98AC299E1F9E00F19083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8A98A8299E1F9E00F19083 /* simple_medicine_calendar_watch WatchKit Extension */;
+			targetProxy = 7F8A98AB299E1F9E00F19083 /* PBXContainerItemProxy */;
+		};
+		7F8A98C0299E1FA100F19083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8A98A0299E1F9A00F19083 /* simple_medicine_calendar_watch */;
+			targetProxy = 7F8A98BF299E1FA100F19083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F54E3DD291DDD7100FAE487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F54E3DE291DDD7100FAE487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F54E3E0291DDD7100FAE487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0350BC27D7398D21CCF70BF6 /* Pods-simple_medicine_calendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodRealmTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodRealmTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F54E3E1291DDD7100FAE487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42D96690EAD7671F86E20E0 /* Pods-simple_medicine_calendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodRealmTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodRealmTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7F8A98C3299E1FA100F19083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = simple_medicine_calendar_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = simple_medicine_calendar_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jp.ac.jec.21cm0147.PodRealmTest;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7F8A98C4299E1FA100F19083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = simple_medicine_calendar_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = simple_medicine_calendar_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jp.ac.jec.21cm0147.PodRealmTest;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7F8A98C6299E1FA100F19083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple_medicine_calendar_watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple_medicine_calendar_watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "simple_medicine_calendar_watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7F8A98C7299E1FA100F19083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple_medicine_calendar_watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U2Y7VW488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple_medicine_calendar_watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "simple_medicine_calendar_watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.21cm0147.PodRealmTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F54E3CC291DDD6E00FAE487 /* Build configuration list for PBXProject "simple_medicine_calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F54E3DD291DDD7100FAE487 /* Debug */,
+				7F54E3DE291DDD7100FAE487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F54E3DF291DDD7100FAE487 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F54E3E0291DDD7100FAE487 /* Debug */,
+				7F54E3E1291DDD7100FAE487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A98C8299E1FA100F19083 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar_watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A98C6299E1FA100F19083 /* Debug */,
+				7F8A98C7299E1FA100F19083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A98C9299E1FA100F19083 /* Build configuration list for PBXNativeTarget "simple_medicine_calendar_watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A98C3299E1FA100F19083 /* Debug */,
+				7F8A98C4299E1FA100F19083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F54E3C9291DDD6E00FAE487 /* Project object */;
+}
